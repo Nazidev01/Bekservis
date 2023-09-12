@@ -13,9 +13,10 @@ import marka1 from "../img/prod4 1.png";
 import marka2 from "../img/prod3 1.png";
 import marka3 from "../img/prod2 1.png";
 import marka4 from "../img/prod1 1.png";
-import { AiOutlineWhatsApp } from "react-icons/ai";
+import {AiFillInstagram, AiOutlineWhatsApp} from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiLogoTiktok } from "react-icons/bi";
+import {BsFillTelephoneFill, BsWhatsapp} from "react-icons/bs";
 
 
 
@@ -28,6 +29,13 @@ const Hero = () => {
       <div className="container">
         <div className="hero">
           <div className="hero-title">
+            <div className="hero-icons">
+              <a href="https://wa.me/996500475147"><BsWhatsapp className='whats'/></a>
+              <a href="tel:+996509-01-03-91"><BsFillTelephoneFill className='tell'/>
+              </a>
+              <a href="https://instagram.com/bek_servis_bishkek001?igshid=YmMyMTA2M2Y="><AiFillInstagram className='in'/>
+              </a>
+            </div>
             <h1>
               Ремонт стиральных <br />
               машин
