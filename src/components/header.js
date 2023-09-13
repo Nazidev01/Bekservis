@@ -20,9 +20,7 @@ const Header = () => {
        <div id="header-link">
       <div className='container'>
           <div className="header-link">
-        <a href="http://">Ремонт стиральных машин </a>
-        <a href="http://">Ремонт посудамоечных машин</a>
-        <a href="http://">Ремонт сушилных машин</a>
+     
       </div>
         </div>
       </div>

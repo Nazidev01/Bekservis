@@ -17,6 +17,15 @@ import {AiFillInstagram, AiOutlineWhatsApp} from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiLogoTiktok } from "react-icons/bi";
 import {BsFillTelephoneFill, BsWhatsapp} from "react-icons/bs";
+import det from "../img/tet1.jpg";
+import det1 from "../img/tet2.jpg";
+import det2 from "../img/tet3.jpg";
+import det3 from "../img/tet4.jpg";
+import det4 from "../img/tet5.jpg";
+import det5 from "../img/tet6.jpg";
+import det6 from "../img/tet7.jpg";
+
+
 
 
 
@@ -76,8 +85,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="construction">
-          <img src={man1} alt="" />
-          <img src={man2} alt="" />
+          <img src={man1} alt="" className='alt1' />
+          <img src={man2} alt="" className='alt2'/>
           <div className="const-list">
             <h1>
               🧰 Мы предоставляем <br />
@@ -97,9 +106,64 @@ const Hero = () => {
             </ul>
           </div>
         </div>
+
         <div className="details">
           <img src={man3} alt="" />
+          <div className='foto1'>
+                <img src={det} alt=""  style={{
+            width:"200px",
+            height:"200px"
+           }}/>
+           <h4>Термоблокировка <br/>люка</h4>
+          </div>
+          <div className='foto2'>
+              <img src={det1} alt="" style={{
+            width:"200px",
+            height:"200px"
+           }}/>
+          <h4>Термоблокировка <br/>люка</h4>
+          </div>
+       <div className='foto3'>
+              <img src={det2} alt="" style={{
+            width:"200px",
+            height:"200px"
+           }} />
+              <h4>Термоблокировка <br/>люка</h4>
+       </div>
+       <div className='foto4'>
+            <img src={det3} alt="" style={{
+            width:"200px",
+            height:"200px"
+           }} />
+           <h4> Ключ люка</h4>
+       </div>
+        <div className='foto5'>
+            <img src={det5} alt="" style={{
+            width:"200px",
+            height:"200px"
+           }}/>
+           <h4>Патрубок</h4>
+       </div>
+       <div className='foto7'>
+          <img src={det6} alt=""  style={{
+            width:"200px",
+            height:"200px"
+           }}/>
+           <h4>Бойник барабана</h4>
+       </div>
+      
+
+
+
+
+
         </div>
+
+
+
+
+
+
         <div className="buu">
           <h1>СКУПКА СТИРАЛЬНЫХ МАШИН</h1>
           <h1>ПРОДАЖА Б/У МАШИН</h1>
