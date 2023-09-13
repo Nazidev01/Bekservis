@@ -199,7 +199,8 @@ const Hero = () => {
         </div>
         <div className="marka">
           <img src={marka1} alt="" />
-          <img src={marka2} alt="" /> <img src={marka3} alt="" />
+          <img src={marka2} alt="" />
+           <img src={marka3} alt="" />
           <img src={marka4} alt="" />
         </div>
         <div className="media">
