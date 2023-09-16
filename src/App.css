@@ -18,7 +18,7 @@ a{
 .header{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 25px 0 ;
 }
 .header-call{
@@ -421,7 +421,6 @@ flex-direction: column;
   font-size: 20px;
 
 }
-
 .what h3{
   color: azure;
   font-size: 20px;
@@ -474,7 +473,6 @@ flex-direction: column;
   height: 350px;
   bottom: 80px;
 }
-
 .footer-text h1{
   font-family: "Archivo Black" ,sans-serif;
   background: white;
@@ -501,9 +499,6 @@ flex-direction: column;
   border-radius: 30px;
   background: white;
 }
-
-
-
 #foot{
   background: #34495E;
 }
@@ -512,7 +507,6 @@ flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-
 .foot h1{
   padding: 50px 0;
   font-family: "Archivo Black" ,sans-serif;
@@ -528,7 +522,7 @@ flex-direction: column;
   font-size: 32px;
 }
 
-@media(min-width:     1300px){
+@media(max-width:     1300px){
   .container{
     width: 1300px;
   }
@@ -568,11 +562,10 @@ flex-direction: column;
 }
 .hero-icons {
     position: absolute;
-    right: 170px;
+    right: 69px;
     display: flex;
     flex-direction: column;
 }
-
 .header {
     display: flex;
     align-items: center;
@@ -601,9 +594,6 @@ flex-direction: column;
     padding: 50px 0;
     cursor: pointer;
 }
-
-
-
 .alt1 {
     margin: 0;
     width: 458px;
@@ -629,7 +619,7 @@ flex-direction: column;
     color: #34495E;
     font-size: 19px;
     font-weight: 700;
-    right: 193px;
+    right: 113px;
     position: absolute;
     bottom: 78px;
 }
@@ -642,7 +632,7 @@ flex-direction: column;
     margin-left: 69px;
 }
 .foot-icon {
-    margin-right: 204px;
+    margin-right: 102px;
 }
 .img1 {
     position: absolute;
@@ -676,13 +666,16 @@ flex-direction: column;
     align-items: center;
     font-size: 20px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 408px;
     padding: 15px 150px 15px 40px;
     border-radius: 30px;
     background: white;
 }
-
-
+.header-call {
+    display: flex;
+    align-items: center;
+    margin-right: -136px;
+}
 .footer-text h1 {
     font-family: "Archivo Black" ,sans-serif;
     background: white;
@@ -693,11 +686,11 @@ flex-direction: column;
     justify-content: center;
     width: 593px;
     border-radius: 30px;
-    height: 251px;
+    height: 246px;
     text-align: center;
     font-weight: 700;
     margin-top: 154px;
-    margin-left: 55px;
+    margin-left: 407px;
 }
 .info p {
     font-family: "Archivo Black" ,sans-serif;
@@ -803,14 +796,33 @@ element.style {
     justify-content: space-evenly;
     text-align: center;
     padding: 40px 0;
-    margin-left: -115px;
+    margin-left: 0px;
 }
-
 }
-@media(min-width:    1240px){
+@media(max-width:    1240px){
   .container{
     width: 1240px;
   }
+  .foto2 {
+    position: absolute;
+    right: 132px;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+  .foto1 {
+    position: absolute;
+    left: 60px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
 .header {
     display: flex;
     align-items: center;
@@ -856,36 +868,36 @@ element.style {
 .hero-img img {
     width: 618px;
     height: 652px;
-    margin-right: 189px;
+    margin-right: 16px;
 }
 .hero-icons {
     position: absolute;
-    right: 249px;
+    right: 59px;
     display: flex;
     flex-direction: column;
 }
 .hero-tech img {
-    margin: 40px -98px;
-    width: 174px;
-    height: 228px;
+    margin: 36px -105px;
+    width: 114px;
+    height: 164px;
     transition: .4s;
 }
 .hero-techno {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     text-align: center;
     padding: 50px 0;
     cursor: pointer;
-    margin-left: -66px;
+    gap: 74px;
 }
 .alt1 {
     width: 458px;
     margin-left: 71px;
 }
 .alt2 {
-    width: 278px;
-    margin-left: -155px;
+    width: 266px;
+    margin-left: -44px;
 }
 .const-list h1 {
     font-family: "Archivo Black" ,sans-serif;
@@ -894,8 +906,13 @@ element.style {
     font-weight: 700;
     position: absolute;
     bottom: 100px;
-    right: 217px;
+    right: 107px;
     position: relative;
+}
+.header-call {
+    display: flex;
+    align-items: center;
+    margin-right: -230px;
 }
 
 .const-list ul {
@@ -903,30 +920,12 @@ element.style {
     color: #34495E;
     font-size: 20px;
     font-weight: 700;
-    right: 194px;
+    right: 34px;
     position: absolute;
     bottom: 83px;
 }
-.foto1 {
-    position: absolute;
-    left: 235px;
-    top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-.foto2 {
-    position: absolute;
-    right: 342px;
-    top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
+
+
 .foto7 {
     position: absolute;
     right: 340px;
@@ -936,47 +935,11 @@ element.style {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    display: none;
 }
-.foto5 {
-    position: absolute;
-    right: 202px;
-    top: 258px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-.foto3 {
-    position: absolute;
-    left: 289px;
-    top: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-.foto1 {
-    position: absolute;
-    left: 297px;
-    top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-.foto4 {
-    position: absolute;
-    left: 125px;
-    top: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
+
+
+
 .info {
     display: flex;
     align-items: center;
@@ -991,7 +954,7 @@ element.style {
 }
 .info img {
     transition: transform .9s;
-    width: 342px;
+    width: 197px;
 }
 .info p {
     font-family: "Archivo Black" ,sans-serif;
@@ -1016,11 +979,9 @@ element.style {
 .marka {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-left: -37px;
-}
-.foot-icon {
-    margin-right: 262px;
+    justify-content: start;
+    gap: 74px;
+    margin-left: 56px;
 }
 .img1 {
     position: absolute;
@@ -1029,12 +990,14 @@ element.style {
     left: 114px;
     top: 89px;
 }
+.foot-icon {
+    margin-right: 88px;
+}
 .img3 {
     position: absolute;
-    width: 297px;
-    height: 305px;
-    bottom: 137px;
-    left: 16px;
+    width: 270px;
+    height: 270px;
+    bottom: 127px;
 }
 .img2 {
     position: absolute;
@@ -1069,7 +1032,7 @@ element.style {
     justify-content: space-evenly;
     text-align: center;
     padding: 40px 0;
-    margin-left: -194px;
+    margin-left: -2px;
 }
 .marka {
     display: flex;
@@ -1083,7 +1046,7 @@ element.style {
     align-items: center;
     justify-content: start;
     padding: 20px 0;
-    gap: 96px;
+    gap: 172px;
     margin-left: 112px;
 }
 .buu {
@@ -1093,36 +1056,9 @@ element.style {
     margin: 0 54px;
     gap: 145px;
 }
-.foto1 {
-    position: absolute;
-    left: 255px;
-    top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-.foto4 {
-    position: absolute;
-    left: 55px;
-    top: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-.foto3 {
-    position: absolute;
-    left: 263px;
-    top: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
+
+
+
 .details img {
     width: 277px;
     height: 360px;
@@ -1136,16 +1072,7 @@ element.style {
     position: relative;
     margin-left: 113px;
 }
-.foto4 {
-    position: absolute;
-    left: 106px;
-    top: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
+
 .hero-techno {
     display: flex;
     align-items: center;
@@ -1156,14 +1083,82 @@ element.style {
     margin-left: 94px;
     gap: 145px;
 }
+.footer-text h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: white;
+    color: #B83D40;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 449px;
+    border-radius: 30px;
+    height: 198px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 109px;
+    margin-left: 320px;
+}
+.foto4 {
+    position: absolute;
+    left: 97px;
+    top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: none;
+}
+.footer-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 276px;
+    padding: 15px 150px 15px 40px;
+    border-radius: 30px;
+    background: white;
+}
+.foto3 {
+    position: absolute;
+    left: 63px;
+    top: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.foto5 {
+    position: absolute;
+    right: 110px;
+    top: 465px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
 
 
 }
-@media(min-width:   992px){
+@media(max-width:   992px){
   .container{
     width: 992px;
   }
-
+  .marka {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 70px;
+    margin-left: 44px;
+}
+.info img {
+    transition: transform .9s;
+    width: 100px;
+}
 .hero-title h1 {
     font-family: "Archivo Black" ,sans-serif;
     color: black;
@@ -1200,7 +1195,7 @@ element.style {
 
 .hero-icons {
     position: absolute;
-    right: 96px;
+    right: 62px;
     display: flex;
     flex-direction: column;
 }
@@ -1211,6 +1206,8 @@ element.style {
     text-align: center;
     padding: 50px 0;
     cursor: pointer;
+    gap: 1px;
+    margin-left: 13px;
 }
 .hero-tech img {
     margin: 40px 20px;
@@ -1235,9 +1232,8 @@ element.style {
 }
 .alt2 {
     width: 184px;
-    margin-left: -175px;
+    margin-left: -149px;
 }
-
 .const-list ul {
     font-family: "Archivo Black" ,sans-serif;
     color: #34495E;
@@ -1294,7 +1290,7 @@ details {
     position: absolute;
     width: 270px;
     height: 270px;
-    bottom: 245px;
+    bottom: 129px;
 }
 .img2 {
     position: absolute;
@@ -1310,7 +1306,7 @@ details {
     align-items: center;
     font-size: 16px;
     margin-top: 40px;
-    margin-left: -70px;
+    margin-left: 296px;
     padding: 15px 150px 15px 40px;
     border-radius: 30px;
     background: white;
@@ -1329,326 +1325,145 @@ details {
     text-align: center;
     font-weight: 700;
     margin-top: 109px;
-    margin-left: -40px;
+    margin-left: 300px;
+}
+.buu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0 54px;
+    gap: 145px;
+    padding: 47px 0;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px 0;
+    gap: 172px;
+    margin-left: 43px;
 }
 
 
-
 }
-@media(min-width:  778px){
+@media(max-width:  778px){
   .container{
     width: 778px;
   }
-  .hero {
+  .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 50px 0;
-    flex-direction: column;
-}
-.hero-icons {
-    position: absolute;
-    right: 39px;
-    display: flex;
-    flex-direction: column;
-}
-.hero-title p {
-    font-family: "Archivo Black" ,sans-serif;
-    color: #34495E;
-    font-size: 31px;
-    font-weight: 700;
-    margin-top: 432px;
-}
-.header h1 {
-    font-family: "Archivo Black" ,sans-serif;
-    color: white;
-    font-size: 22px;
-    font-weight: 700;
-}
-.hero-title h1 {
-    font-family: "Archivo Black" ,sans-serif;
-    color: black;
-    font-size: 78px;
-    font-weight: 700;
-    position: absolute;
-    top: 150px;
-    left: 35px;
+    justify-content: start;
+    padding: 25px 0;
+    gap: 55px;
 }
 .header-call a {
     font-family: "Archivo Black" ,sans-serif;
     color: rgba(255, 255, 255, 0.334);
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 700;
 }
-.buu h1 {
+.header h1 {
     font-family: "Archivo Black" ,sans-serif;
-    background: #34495E;
-    color: azure;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 344px;
-    border-radius: 30px;
-    height: 40px;
-    text-align: center;
+    color: white;
+    font-size: 20px;
     font-weight: 700;
-    margin: 20px 0;
-}
-.info p {
-    font-family: "Archivo Black" ,sans-serif;
-    color: #B83D40;
-    font-size: 16px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.info img {
-    transition: transform .9s;
-    width: 150px;
+    margin-left: 20px;
 }
 .header-call div h3 {
     padding: 0 20px;
     color: #233140;
-    font-size: 23px;
+    font-size: 20px;
     margin-left: -30px;
 }
-.hero-title p {
-    font-family: "Archivo Black" ,sans-serif;
-    color: #34495E;
-    font-size: 31px;
-    font-weight: 700;
-    margin-top: 432px;
-    margin-left: -224px;
-}
-
-.hero-title button {
-    background: #B83D40;
-    font-family: "Archivo Black" ,sans-serif;
-    color: white;
-    padding: 10px 20px;
-    font-size: 32px;
-    border: none;
-    border-radius: 30px;
-    font-weight: 700;
-    margin: 100px -219px;
-}
-.hero-techno {
+.header-call {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    flex-direction: column;
-    padding: 50px 0;
-    cursor: pointer;
-}
-.hero-tech img {
-    margin: 40px 20px;
-    width: 395px;
-    height: 509px;
-    transition: .4s;
-}
-.construction {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    flex-direction: column;
-    padding: 0px 0;
-}
-.alt2 {
-    margin-left: -344px;
-}
-.const-list h1 {
-    font-family: "Archivo Black" ,sans-serif;
-    color: black;
-    font-size: 38px;
-    font-weight: 700;
-    position: absolute;
-    bottom: 381px;
-    right: -90px;
-    position: relative;
-}
-.const-list ul {
-    font-family: "Archivo Black" ,sans-serif;
-    color: #34495E;
-    font-size: 20px;
-    font-weight: 700;
-    right: 36px;
-    position: absolute;
-    bottom: 189px;
-}
-.foto5 {
-    position: absolute;
-    right: 114px;
-    top: 333px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    width: 20px;
-    height: 20px;
-}
-.details img {
-    width: 300px;
-    height: 394px;
-}
-.marka img {
-    transition: .4s;
-    cursor: pointer;
-    width: 110px;
-}
-.marka {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding: 50px 0;
-    gap: 58px;
-    margin-left: 81px;
-}
-.media button {
-    width: 180px;
-    height: 60px;
-    border-radius: 45px;
-    border: 2px solid white;
-}
-.img1 {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 230px;
-    top: 50px;
-    display: none;
-}
-.img2 {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 330px;
-    bottom: 5px;
-    display: none;
-}
-.img3 {
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    bottom: 80px;
-    display: none;
-}
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    margin-left: 37px;
+    margin-left: 210px;
 }
 .footer-text button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    margin-top: 70px;
-    margin-left: -9px;
-    padding: 15px 150px 15px 40px;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 296px;
+    padding: 10px 150px 10px 40px;
     border-radius: 30px;
     background: white;
+    margin-left: 22px;
 }
-.foot h1 {
-    padding: 50px 0;
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footer-text h1 {
     font-family: "Archivo Black" ,sans-serif;
-    color: white;
-    font-size: 22px;
+    background: white;
+    color: #B83D40;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 449px;
+    border-radius: 30px;
+    height: 198px;
+    text-align: center;
     font-weight: 700;
-    margin-left: 55px;
+    margin-top: 94px;
+    margin-left: -46px;
 }
-.foot-icon {
-    margin-right: 39px;
-}
-.foot-icon a {
-    color: white;
-    font-size: 23px;
-}
-.foto2 {
+
+.img2 {
     position: absolute;
-    right: 200px;
+    width: 180px;
+    height: 180px;
+    left: 171px;
+    bottom: 37px;
+    display: none;
+}
+.img3 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    bottom: 129px;
+    display: none;
+}
+.img1 {
+    position: absolute;
+    width: 323px;
+    height: 307px;
+    left: 32px;
     top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     display: none;
 }
-.foto1 {
-    position: absolute;
-    left: 200px;
-    top: 50px;
+.media button {
+    width: 158px;
+    height: 64px;
+    border-radius: 45px;
+    border: 2px solid white;
+}
+.marka {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    display: none;
+    justify-content: start;
+    gap: 70px;
+    margin-left: 75px;
 }
-.foto4 {
-    position: absolute;
-    left: 5px;
-    top: 250px;
+.marka img {
+    transition: .4s;
+    cursor: pointer;
+    width: 100px;
+}
+.info {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    display: none;
-}
-.foto7 {
-    position: absolute;
-    right: 200px;
-    top: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    display: none;
-}
-.foto3 {
-    position: absolute;
-    left: 200px;
-    top: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    display: none;
-}
-.foto5 {
-    position: absolute;
-    right: 114px;
-    top: 333px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    width: 20px;
-    height: 20px;
-    display: none;
-}
-.details {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 26px 0;
-    position: relative;
-}
-}
-@media(min-width: 567px){
-.container{
-  width:  567px;
+    justify-content: start;
+    padding: 20px 0;
+    gap: 100px;
+    margin-left: 86px;
 }
 .hero {
     display: flex;
@@ -1657,52 +1472,40 @@ details {
     padding: 50px 0;
     flex-direction: column;
 }
-.header-call {
-    display: flex;
-    align-items: center;
-    display: none;
-}
 .hero-title h1 {
     font-family: "Archivo Black" ,sans-serif;
     color: black;
-    font-size: 43px;
+    font-size: 52px;
     font-weight: 700;
     position: absolute;
-    top: 150px;
-    left: 41px;
+    top: 109px;
+    left: 21px;
 }
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 25px 0;
-}
-.hero-title p {
-    font-family: "Archivo Black" ,sans-serif;
-    color: #34495E;
-    font-size: 28px;
+.hero-tech h4 {
+    font-family: "Archivo Black",sans-serif;
+    color: #B83D40;
+    font-size: 16px;
     font-weight: 700;
-    margin-top: 238px;
-    margin-left: -40px;
-}
-.hero-img img {
-    width: 526px;
-    height: 611px;
+    transition: .5s;
+    cursor: pointer;
 }
 .hero-techno {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     text-align: center;
     padding: 50px 0;
     cursor: pointer;
-    flex-direction: column;
+    gap: 10px;
+    margin-left: 13px;
 }
-.hero-tech img {
-    margin: 40px 20px;
-    width: 299px;
-    height: 366px;
-    transition: .4s;
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 218px;
+    margin-left: -180px;
 }
 .hero-title button {
     background: #B83D40;
@@ -1713,141 +1516,71 @@ details {
     border: none;
     border-radius: 30px;
     font-weight: 700;
-    margin: 100px -45px;
+    margin: 60px 39px;
+    margin-left: -348px;
 }
-.construction {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    padding: 50px 0;
-    flex-direction: column;
+.hero-img img {
+    width: 584px;
+    height: 621px;
+    margin-right: 7px;
 }
-.alt1 {
-    width: 527px;
+.hero-tech img {
+    margin: 40px 20px;
+    width: 96px;
+    height: 135px;
+    transition: .4s;
 }
-.alt2 {
-    width: 297px;
-    margin-left: -203px;
-    margin-top: 47px;
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 218px;
+    margin-left: -346px;
 }
-
 .const-list h1 {
     font-family: "Archivo Black" ,sans-serif;
     color: black;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
     position: absolute;
-    bottom: 369px;
-    right: -91px;
+    bottom: 100px;
+    right: 37px;
     position: relative;
 }
-.hero-icons {
-    position: absolute;
-    right: 16px;
-    display: flex;
-    flex-direction: column;
-}
-.header h1 {
-    font-family: "Archivo Black" ,sans-serif;
-    color: white;
-    font-size: 32px;
-    font-weight: 700;
-    margin-left: -63px;
-}
-
 .const-list ul {
     font-family: "Archivo Black" ,sans-serif;
     color: #34495E;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
-    right: -3px;
+    right: 0px;
     position: absolute;
-    bottom: 196px;
-}
-.foto1 {
-    position: absolute;
-    left: 200px;
-    top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    display: none;
-}
-.foto4 {
-    position: absolute;
-    left: 5px;
-    top: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    display: none;
-}
-.foto7 {
-    position: absolute;
-    right: 200px;
-    top: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    display: none;
-}
-.foto3 {
-    position: absolute;
-    left: 200px;
-    top: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    display: none;
-}
-.foto5 {
-    position: absolute;
-    right: 114px;
-    top: 333px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    width: 20px;
-    height: 20px;
-    display: none;
+    bottom: 61px;
 }
 .foto2 {
     position: absolute;
-    right: 200px;
-    top: 50px;
+    right: 61px;
+    top: 51px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    display: none;
 }
-.details {
+.buu h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: #34495E;
+    color: azure;
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
-    position: relative;
-}
-.details img {
-    width: 300px;
-    height: 376px;
-    margin-top: -79px;
-}
-.info img {
-    transition: transform .9s;
-    width: 200px;
+    width: 500px;
+    border-radius: 30px;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
 }
 .info p {
     font-family: "Archivo Black" ,sans-serif;
@@ -1858,108 +1591,654 @@ details {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-left: -17px;
 }
-.buu h1 {
-    font-family: "Archivo Black" ,sans-serif;
-    background: #34495E;
-    color: azure;
-    font-size: 14px;
+
+.foto3 {
+    position: absolute;
+    left: 18px;
+    top: 470px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 258px;
-    border-radius: 30px;
-    height: 30px;
     text-align: center;
-    font-weight: 700;
-    margin: 20px 0;
-}
-.foot {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
-    padding: 0 0 20px 0;
 }
-.img1 {
+.foto5 {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 230px;
-    top: 50px;
-    display: none;
-}
-.img3 {
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    bottom: 80px;
-    display: none;
-}
-.img2 {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 330px;
-    bottom: 5px;
-    display: none;
-}
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.footer-text h1 {
-    font-family: "Archivo Black" ,sans-serif;
-    background: white;
-    color: #B83D40;
-    font-size: 32px;
+    right: 49px;
+    top: 465px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 422px;
-    border-radius: 30px;
-    height: 173px;
     text-align: center;
-    font-weight: 700;
-    margin-top: 80px;
-    margin-left: 64px;
+    flex-direction: column;
 }
-.footer-text button {
+.foto1 {
+    position: absolute;
+    left: 19px;
+    top: 49px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 16px;
-    margin-top: 80px;
-    margin-left: 43px;
-    padding: 15px 88px 15px 40px;
-    border-radius: 30px;
-    background: white;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.alt2 {
+    width: 147px;
+    margin-left: 0px;
+}
+ 
+}
+@media(max-width: 567px){
+.container{
+  width:  567px;
+}
+.header-call {
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+    display: none;
+}
+.hero-title h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 109px;
+    left: 21px;
+}
+.header-call div h3 {
+    padding: 0 20px;
+    color: #233140;
+    font-size: 20px;
+    margin-left: -30px;
+    display: none;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px 0;
+    gap: 100px;
+    margin-left: 41px;
 }
 .marka img {
     transition: .4s;
     cursor: pointer;
-    width: 80px;
+    width: 66px;
+}
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 218px;
+    margin-left: -133px;
 }
 .marka {
     display: flex;
     align-items: center;
     justify-content: start;
+    gap: 70px;
+    margin-left: 41px;
+}
+.hero-title button {
+    background: #B83D40;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 60px 39px;
+    margin-left: -141px;
+}
+.footer-text h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: white;
+    color: #B83D40;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 449px;
+    border-radius: 30px;
+    height: 161px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 94px;
+    margin-left: 16px;
+}
+.footer-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 296px;
+    padding: 10px 150px 10px 40px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 22px;
+}
+.foot-icon a {
+    color: white;
+    font-size: 20px;
+}
+.foot h1 {
     padding: 50px 0;
-    gap: 56px;
-    margin-left: 25px;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
 }
 .media button {
-    width: 148px;
-    height: 65px;
+    width: 136px;
+    height: 72px;
     border-radius: 45px;
     border: 2px solid white;
 }
+.hero-img img {
+    width: 533px;
+    height: 547px;
+    margin-right: -42px;
 }
-@media(min-width:480px){
+.hero-tech img {
+    margin: 40px 20px;
+    width: 58px;
+    height: 75px;
+    transition: .4s;
+}
+.hero-tech h4 {
+    font-family: "Archivo Black",sans-serif;
+    color: #B83D40;
+    font-size: 12px;
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+.hero-techno {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 50px 0;
+    cursor: pointer;
+    gap: 10px;
+    margin-left: 27px;
+}
+.alt1 {
+    width: 221px;
+    margin-left: 29px;
+}
+.alt2 {
+    width: 105px;
+    margin-left: 0px;
+}
+.const-list h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 74px;
+    right: 14px;
+    position: relative;
+}
+.const-list ul {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 10px;
+    font-weight: 700;
+    right: 11px;
+    position: absolute;
+    bottom: 61px;
+}
+.foto1 {
+    position: absolute;
+    left: 19px;
+    top: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: none;
+}
+.foto2 {
+    position: absolute;
+    right: 61px;
+    top: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: none;
+}
+.foto3 {
+    position: absolute;
+    left: 18px;
+    top: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: none;
+}
+.foto5 {
+    position: absolute;
+    right: 49px;
+    top: 465px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: none;
+}
+.details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    margin-left: 113px;
+}
+.info p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 8px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: -17px;
+}
+.buu h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: #34495E;
+    color: azure;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border-radius: 30px;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.buu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0 17px;
+    gap: 27px;
+    padding: 47px 0;
+}
+
+
+}
+@media(max-width:480px){
   .container{
     width: 480px;
   }
+.hero-title h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    top: 105px;
+    left: 21px;
+}
+.hero-icons {
+    position: absolute;
+    right: 37px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-title button {
+    background: #B83D40;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 40px 39px;
+    margin-left: -122px;
+}
+.hero-tech img {
+    margin: 40px 20px;
+    width: 46px;
+    height: 62px;
+    transition: .4s;
+}
+.const-list h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 64px;
+    right: 45px;
+    position: relative;
+}
+.const-list ul {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 9px;
+    font-weight: 700;
+    right: 25px;
+    position: absolute;
+    bottom: 43px;
+}
+.alt2 {
+    width: 78px;
+    margin-left: -54px;
+}
+.alt1 {
+    width: 146px;
+    margin-left: 29px;
+}
+details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    margin-left: 39px;
+}
+.hero-tech h4 {
+    font-family: "Archivo Black",sans-serif;
+    color: #B83D40;
+    font-size: 10px;
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.hero-img img {
+    width: 462px;
+    height: 472px;
+    margin-right: -42px;
+}
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 180px;
+    margin-left: -117px;
+}
+.buu h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: #34495E;
+    color: azure;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border-radius: 30px;
+    height: 22px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.info img {
+    transition: transform .9s;
+    width: 48px;
+}
+.marka {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 70px;
+    margin-left: 29px;
+}
+.footer-text h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: white;
+    color: #B83D40;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 292px;
+    border-radius: 30px;
+    height: 113px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 94px;
+    margin-left: 16px;
+}
+.footer-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    margin-top: 40px;
+    margin-left: 296px;
+    padding: 10px 150px 10px 40px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 22px;
+}
+.foot-icon {
+    margin-left: 40px;
+    padding: 0 0 109px 0;
+}
+.foot {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.marka img {
+    transition: .4s;
+    cursor: pointer;
+    width: 53px;
+}
+}
+@media(max-width:380px){
+.hero-title h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    top: 105px;
+    left: 21px;
+}
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 180px;
+    margin-left: -159px;
+}
+.hero-icons {
+    position: absolute;
+    right: 113px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-title button {
+    background: #B83D40;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 40px 39px;
+    margin-left: -162px;
+}
+
+.hero-techno {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 50px 0;
+    cursor: pointer;
+    gap: 10px;
+    margin-left: 5px;
+}
+.hero-tech img {
+    margin: 40px 20px;
+    width: 28px;
+    height: 42px;
+    transition: .4s;
+}
+.hero-img img {
+    width: 323px;
+    height: 341px;
+    margin-right: 91px;
+}
+.hero-tech h4 {
+    font-family: "Archivo Black",sans-serif;
+    color: #B83D40;
+    font-size: 8px;
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+.const-list ul {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 7px;
+    font-weight: 700;
+    right: 119px;
+    position: absolute;
+    bottom: 43px;
+}
+.const-list h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 46px;
+    right: 122px;
+    position: relative;
+}
+.buu h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: #34495E;
+    color: azure;
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    border-radius: 30px;
+    height: 22px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.marka {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 38px;
+    margin-left: 29px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px 0;
+    gap: 88px;
+    margin-left: 52px;
+}
+
+.buu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+    padding: 39px 0;
+    margin-left: -102px;
+    flex-direction: column;
+}
+.footer-text h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: white;
+    color: #B83D40;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 292px;
+    border-radius: 30px;
+    height: 113px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 94px;
+    margin-left: -138px;
+}
+.footer-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    margin-top: 40px;
+    margin-left: 296px;
+    padding: 10px 69px 10px 40px;
+    border-radius: 30px;
+    background: white;
+    margin-left: -172px;
+}
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 40px 0;
+    margin-left: 25px;
+}
+.media button {
+    width: 112px;
+    height: 58px;
+    border-radius: 45px;
+    border: 2px solid white;
+}
+.info img {
+    transition: transform .9s;
+    width: 48px;
+    display: none;
+}
+.details img {
+    width: 277px;
+    height: 360px;
+    margin-left: -254px;
+}
+.const-list li {
+    margin: 5px 0;
+}
+.alt1 {
+    width: 115px;
+    margin-left: 11px;
+}
+.alt2 {
+    width: 61px;
+    margin-left: -110px;
+}
 }
 
 
