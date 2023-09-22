@@ -70,6 +70,7 @@ a{
   font-size: 40px;
   margin-top: 60px;
 }
+
 .tell{
   color: blue;
   font-size: 35px;
@@ -566,6 +567,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -577,7 +579,7 @@ flex-direction: column;
     color: white;
     font-size: 32px;
     font-weight: 700;
-    margin-left: -115px;
+    margin-left: -133px;
 }
    
 .hero-tech img {
@@ -788,7 +790,7 @@ element.style {
     align-items: center;
     justify-content: space-evenly;
     padding: 50px 0;
-    margin-left: -117px;
+    margin-left: 0px;
 }
 .media {
     display: flex;
@@ -834,8 +836,8 @@ element.style {
     color: white;
     font-size: 32px;
     font-weight: 700;
-    margin-left: -201px;
-    left: 10px;
+    margin-left: -320px;
+    /* left: 10px; */
 }
 .hero-title h1 {
     font-family: "Archivo Black" ,sans-serif;
@@ -844,7 +846,7 @@ element.style {
     font-weight: 700;
     position: absolute;
     top: 151px;
-    left: 96px;
+    left: 72px;
 }
 .hero-title p {
     font-family: "Archivo Black" ,sans-serif;
@@ -912,9 +914,8 @@ element.style {
 .header-call {
     display: flex;
     align-items: center;
-    margin-right: -230px;
+    margin-right: -334px;
 }
-
 .const-list ul {
     font-family: "Archivo Black" ,sans-serif;
     color: #34495E;
@@ -1116,7 +1117,7 @@ element.style {
     align-items: center;
     font-size: 16px;
     margin-top: 40px;
-    margin-left: 276px;
+    margin-left: 318px;
     padding: 15px 150px 15px 40px;
     border-radius: 30px;
     background: white;
@@ -1148,11 +1149,11 @@ element.style {
   .container{
     width: 992px;
   }
-  .marka {
+ .marka {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 70px;
+    gap: 79px;
     margin-left: 44px;
 }
 .info img {
@@ -1166,7 +1167,7 @@ element.style {
     font-weight: 700;
     position: absolute;
     top: 188px;
-    left: 37px;
+    left: 60px;
 }
 .hero-title p {
     font-family: "Archivo Black" ,sans-serif;
@@ -1174,7 +1175,7 @@ element.style {
     font-size: 25px;
     font-weight: 700;
     margin-top: 269px;
-    margin-left: 34px;
+    margin-left: 57px;
 }
 .hero-title button {
     background: #B83D40;
@@ -1185,18 +1186,27 @@ element.style {
     border: none;
     border-radius: 30px;
     font-weight: 700;
-    margin: 83px 40px;
+    margin: 83px 54px;
 }
 .hero-img img {
-    width: 532px;
-    height: 563px;
-    margin-right: 445px;
+    width: 488px;
+    height: 519px;
+    margin-right: 44px;
 }
-
 .hero-icons {
     position: absolute;
     right: 62px;
     display: flex;
+    flex-direction: column;
+}
+.foto2 {
+    position: absolute;
+    right: 132px;
+    top: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
 }
 .hero-techno {
@@ -1274,10 +1284,10 @@ details {
     color: white;
     font-size: 27px;
     font-weight: 700;
-    margin-left: 40px;
+    margin-left: 57px;
 }
 .foot-icon {
-    margin-right: 50px;
+    margin-right: 61px;
 }
 .img1 {
     position: absolute;
@@ -1340,8 +1350,8 @@ details {
     align-items: center;
     justify-content: start;
     padding: 20px 0;
-    gap: 172px;
-    margin-left: 43px;
+    gap: 94px;
+    margin-left: 108px;
 }
 
 
@@ -1350,6 +1360,18 @@ details {
   .container{
     width: 778px;
   }
+  .foot-icon a {
+    color: white;
+    font-size: 24px;
+}
+  .foot h1 {
+    padding: 50px 0;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 35px;
+}
   .header {
     display: flex;
     align-items: center;
@@ -1368,7 +1390,7 @@ details {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 28px;
 }
 .header-call div h3 {
     padding: 0 20px;
@@ -1391,7 +1413,7 @@ details {
     padding: 10px 150px 10px 40px;
     border-radius: 30px;
     background: white;
-    margin-left: 22px;
+    margin-left: -44px;
 }
 .footer {
     display: flex;
@@ -1479,7 +1501,7 @@ details {
     font-weight: 700;
     position: absolute;
     top: 109px;
-    left: 21px;
+    left: 38px;
 }
 .hero-tech h4 {
     font-family: "Archivo Black",sans-serif;
@@ -1505,7 +1527,7 @@ details {
     font-size: 25px;
     font-weight: 700;
     margin-top: 218px;
-    margin-left: -180px;
+    margin-left: -303px;
 }
 .hero-title button {
     background: #B83D40;
@@ -1517,7 +1539,7 @@ details {
     border-radius: 30px;
     font-weight: 700;
     margin: 60px 39px;
-    margin-left: -348px;
+    margin-left: -312px;
 }
 .hero-img img {
     width: 584px;
@@ -1530,30 +1552,23 @@ details {
     height: 135px;
     transition: .4s;
 }
-.hero-title p {
-    font-family: "Archivo Black" ,sans-serif;
-    color: #34495E;
-    font-size: 25px;
-    font-weight: 700;
-    margin-top: 218px;
-    margin-left: -346px;
-}
+
 .const-list h1 {
     font-family: "Archivo Black" ,sans-serif;
     color: black;
     font-size: 26px;
     font-weight: 700;
     position: absolute;
-    bottom: 100px;
+    bottom: 89px;
     right: 37px;
     position: relative;
 }
 .const-list ul {
     font-family: "Archivo Black" ,sans-serif;
     color: #34495E;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
-    right: 0px;
+    right: 32px;
     position: absolute;
     bottom: 61px;
 }
@@ -1596,7 +1611,7 @@ details {
 
 .foto3 {
     position: absolute;
-    left: 18px;
+    left: -23px;
     top: 470px;
     display: flex;
     align-items: center;
@@ -1616,7 +1631,7 @@ details {
 }
 .foto1 {
     position: absolute;
-    left: 19px;
+    left: -30px;
     top: 49px;
     display: flex;
     align-items: center;
@@ -1628,12 +1643,140 @@ details {
     width: 147px;
     margin-left: 0px;
 }
+.hero-icons {
+    position: absolute;
+    right: 35px;
+    top: 58px;
+    display: flex;
+    flex-direction: column;
+}
+.details img {
+    width: 225px;
+    height: 288px;
+    left: 10px;
+    margin-left: -42px;
+}
  
+}
+@media(max-width:  678px){
+  .container{
+    width: 678px;
+  }
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 25px 0;
+    gap: 0;
+    margin-left: -20px;
+}
+.hero-title h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 52px;
+    font-weight: 700;
+    position: absolute;
+    top: 109px;
+    left: 20px;
+}
+.hero-title button {
+    background: #B83D40;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 60px 39px;
+    margin-left: -229px;
+}
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 218px;
+    margin-left: -213px;
+}
+.hero-img img {
+    width: 459px;
+    height: 443px;
+    margin-right: 29px;
+}
+.hero-techno {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 50px 0;
+    cursor: pointer;
+    gap: 0;
+    margin-left: -5px;
+}
+.buu h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: #34495E;
+    color: azure;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 437px;
+    border-radius: 30px;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.marka {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 60px;
+    margin-left: 51px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    gap: 54px;
+    margin-left: 86px;
+}
+.const-list ul {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 12px;
+    font-weight: 700;
+    right: 25px;
+    position: absolute;
+    bottom: 57px;
+}
+.const-list h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 80px;
+    right: 37px;
+    position: relative;
+}
+.alt2 {
+    width: 143px;
+    margin-left: 0px;
+}
+.alt1 {
+    width: 252px;
+    margin-left: 29px;
+}
 }
 @media(max-width: 567px){
 .container{
   width:  567px;
 }
+
 .header-call {
     display: flex;
     align-items: center;
@@ -1647,7 +1790,7 @@ details {
     font-weight: 700;
     position: absolute;
     top: 109px;
-    left: 21px;
+    left: 28px;
 }
 .header-call div h3 {
     padding: 0 20px;
@@ -1661,8 +1804,8 @@ details {
     align-items: center;
     justify-content: start;
     padding: 20px 0;
-    gap: 100px;
-    margin-left: 41px;
+    gap: 55px;
+    margin-left: 59px;
 }
 .marka img {
     transition: .4s;
@@ -1674,9 +1817,10 @@ details {
     color: #34495E;
     font-size: 25px;
     font-weight: 700;
-    margin-top: 218px;
-    margin-left: -133px;
+    margin-top: 187px;
+    margin-left: -109px;
 }
+
 .marka {
     display: flex;
     align-items: center;
@@ -1693,8 +1837,8 @@ details {
     border: none;
     border-radius: 30px;
     font-weight: 700;
-    margin: 60px 39px;
-    margin-left: -141px;
+    margin: 60px -50px;
+    margin-left: -106px;
 }
 .footer-text h1 {
     font-family: "Archivo Black" ,sans-serif;
@@ -1734,18 +1878,19 @@ details {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    margin-left: 40px;
+    margin-left: 29px;
 }
 .media button {
-    width: 136px;
-    height: 72px;
+    width: 113px;
+    height: 45px;
+    font-size: 12px;
     border-radius: 45px;
     border: 2px solid white;
 }
 .hero-img img {
-    width: 533px;
-    height: 547px;
-    margin-right: -42px;
+    width: 487px;
+    height: 492px;
+    margin-right: -13px;
 }
 .hero-tech img {
     margin: 40px 20px;
@@ -1853,7 +1998,7 @@ details {
 .info p {
     font-family: "Archivo Black" ,sans-serif;
     color: #B83D40;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -1891,6 +2036,14 @@ details {
   .container{
     width: 480px;
   }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    gap: 55px;
+    margin-left: 45px;
+}
 .hero-title h1 {
     font-family: "Archivo Black" ,sans-serif;
     color: black;
@@ -1969,18 +2122,19 @@ details {
 }
 
 .hero-img img {
-    width: 462px;
-    height: 472px;
-    margin-right: -42px;
+    width: 392px;
+    height: 411px;
+    margin-right: -20px;
 }
 .hero-title p {
     font-family: "Archivo Black" ,sans-serif;
     color: #34495E;
     font-size: 20px;
     font-weight: 700;
-    margin-top: 180px;
+    margin-top: 156px;
     margin-left: -117px;
 }
+
 .buu h1 {
     font-family: "Archivo Black" ,sans-serif;
     background: #34495E;
@@ -2036,8 +2190,8 @@ details {
     margin-left: 22px;
 }
 .foot-icon {
-    margin-left: 40px;
-    padding: 0 0 109px 0;
+    margin-left: 34px;
+    padding: 0 0 27px 0;
 }
 .foot {
     display: flex;
@@ -2050,30 +2204,25 @@ details {
     cursor: pointer;
     width: 53px;
 }
-}
-@media(max-width:380px){
-.hero-title h1 {
-    font-family: "Archivo Black" ,sans-serif;
-    color: black;
-    font-size: 26px;
-    font-weight: 700;
-    position: absolute;
-    top: 105px;
-    left: 21px;
-}
-.hero-title p {
-    font-family: "Archivo Black" ,sans-serif;
-    color: #34495E;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 180px;
-    margin-left: -159px;
-}
-.hero-icons {
-    position: absolute;
-    right: 113px;
+.hero-techno {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 50px 0;
+    cursor: pointer;
+    gap: 10px;
+    margin-left: -5px;
+}
+}
+@media(max-width:450px){
+  .container{
+    width: 450px;
+  }
+  .hero-img img {
+    width: 353px;
+    height: 369px;
+    margin-right: 22px;
 }
 .hero-title button {
     background: #B83D40;
@@ -2085,7 +2234,134 @@ details {
     border-radius: 30px;
     font-weight: 700;
     margin: 40px 39px;
-    margin-left: -162px;
+    margin-left: -89px;
+}
+.marka {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 61px;
+    margin-left: 29px;
+}
+.footer-text h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: white;
+    color: #B83D40;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 292px;
+    border-radius: 30px;
+    height: 113px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 94px;
+    margin-left: -31px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    gap: 32px;
+    margin-left: 45px;
+}
+.header h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 41px;
+}
+.hero-techno {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 0 0;
+    cursor: pointer;
+    gap: 0;
+    margin-left: 7px;
+}
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 156px;
+    margin-left: -85px;
+}
+.hero-icons {
+    position: absolute;
+    right: 9px;
+    display: flex;
+    flex-direction: column;
+    top: 53px;
+}
+.footer-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    margin-top: 40px;
+    margin-left: 296px;
+    padding: 10px 150px 10px 40px;
+    border-radius: 30px;
+    background: white;
+    margin-left: -36px;
+}
+}
+@media(max-width:380px){
+  .container{
+    width: 380px;
+  }
+.info p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: -37px;
+}
+.hero-title h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    top: 105px;
+    left: 30px;
+}
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 156px;
+    margin-left: -67px;
+}
+.hero-icons {
+    position: absolute;
+    right: 25px;
+    top: 48px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-title button {
+    background: #B83D40;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 40px 39px;
+    margin-left: -70px;
 }
 
 .hero-techno {
@@ -2095,8 +2371,8 @@ details {
     text-align: center;
     padding: 50px 0;
     cursor: pointer;
-    gap: 10px;
-    margin-left: 5px;
+    gap: 0;
+    margin-left: 22px;
 }
 .hero-tech img {
     margin: 40px 20px;
@@ -2105,9 +2381,9 @@ details {
     transition: .4s;
 }
 .hero-img img {
-    width: 323px;
-    height: 341px;
-    margin-right: 91px;
+    width: 284px;
+    height: 321px;
+    margin-right: -15px;
 }
 .hero-tech h4 {
     font-family: "Archivo Black",sans-serif;
@@ -2122,9 +2398,9 @@ details {
     color: #34495E;
     font-size: 7px;
     font-weight: 700;
-    right: 119px;
+    right: 5px;
     position: absolute;
-    bottom: 43px;
+    bottom: 58px;
 }
 .const-list h1 {
     font-family: "Archivo Black" ,sans-serif;
@@ -2133,7 +2409,7 @@ details {
     font-weight: 700;
     position: absolute;
     bottom: 46px;
-    right: 122px;
+    right: 27px;
     position: relative;
 }
 .buu h1 {
@@ -2173,7 +2449,7 @@ details {
     justify-content: start;
     gap: 4px;
     padding: 39px 0;
-    margin-left: -102px;
+    margin-left: 18px;
     flex-direction: column;
 }
 .footer-text h1 {
@@ -2184,13 +2460,13 @@ details {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 292px;
+    width: 257px;
     border-radius: 30px;
-    height: 113px;
+    height: 91px;
     text-align: center;
     font-weight: 700;
     margin-top: 94px;
-    margin-left: -138px;
+    margin-left: -26px;
 }
 .footer-text button {
     display: flex;
@@ -2202,7 +2478,7 @@ details {
     padding: 10px 69px 10px 40px;
     border-radius: 30px;
     background: white;
-    margin-left: -172px;
+    margin-left: -18px;
 }
 .media {
     display: flex;
@@ -2213,8 +2489,9 @@ details {
     margin-left: 25px;
 }
 .media button {
-    width: 112px;
-    height: 58px;
+    width: 104px;
+    height: 46px;
+    font-size: 10px;
     border-radius: 45px;
     border: 2px solid white;
 }
@@ -2226,19 +2503,211 @@ details {
 .details img {
     width: 277px;
     height: 360px;
-    margin-left: -254px;
+    margin-left: -92px;
 }
+
+
 .const-list li {
     margin: 5px 0;
 }
 .alt1 {
-    width: 115px;
+    width: 153px;
     margin-left: 11px;
 }
 .alt2 {
-    width: 61px;
-    margin-left: -110px;
+    width: 83px;
+    margin-left: -9px;
 }
+}
+@media(max-width:320px){
+  .container{
+    width: 320px;
+  }
+  .hero-title h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    top: 64px;
+    left: 21px;
+}
+.info p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 8px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: -7px;
+}
+.hero-icons {
+    position: absolute;
+    right: 37px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-title p {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-left: -77px;
+}
+  .hero-title button {
+    background: #B83D40;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    padding: 10px 20px;
+    font-size: 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 40px 39px;
+    margin-left: -75px;
+}
+.hero-img img {
+    width: 274px;
+    height: 302px;
+    margin-right: -7px;
+}
+.hero-techno {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 50px 0;
+    cursor: pointer;
+    gap: 0;
+    margin-left: -11px;
+    /* display: none; */
+}
+.construction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 50px 0;
+    flex-direction: column;
+}
+.alt1 {
+    width: 253px;
+    margin-left: -4px;
+}
+.alt2 {
+    width: 113px;
+    margin-left: -164px;
+    margin-top: 27px;
+}
+.const-list h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 143px;
+    right: -17px;
+    position: relative;
+}
+.const-list ul {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #34495E;
+    font-size: 7px;
+    font-weight: 700;
+    right: 47px;
+    position: absolute;
+    bottom: 91px;
+}
+.details img {
+    width: 277px;
+    height: 360px;
+    margin-left: -122px;
+}
+.buu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+    padding: 39px 0;
+    margin-left: -14px;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0;
+    gap: 32px;
+    margin-left: 42px;
+}
+.marka {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    margin-left: 29px;
+}
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 40px 0;
+    margin-left: 16px;
+}
+.media button {
+    width: 94px;
+    height: 45px;
+    font-size: 11px;
+    border-radius: 45px;
+    border: 2px solid white;
+}
+
+.footer-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+    margin-top: 40px;
+    margin-left: 296px;
+    padding: 10px 69px 10px 40px;
+    border-radius: 30px;
+    background: white;
+    margin-left: -13px;
+}
+.footer-text h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    background: white;
+    color: #B83D40;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 213px;
+    border-radius: 30px;
+    height: 83px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 94px;
+    margin-left: -16px;
+}
+.foot h1 {
+    padding: 50px 0;
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 21px;
+}
+.foot-icon {
+    margin-left: 34px;
+    padding: 0 0 27px 0;
+}
+
+
 }
 
 
