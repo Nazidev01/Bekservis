@@ -204,24 +204,30 @@ const Hero = () => {
           <img src={marka4} alt="" />
         </div>
         <div className="media">
+          <a href="https://wa.me/996500475147">
           <button className="what">
             <h3>
               <AiOutlineWhatsApp />
             </h3>
             Whatsapp
           </button>
+          </a>
+          <a href="https://instagram.com/bek_servis_bishkek001?igshid=YmMyMTA2M2Y=">
           <button className="inst">
             <h3>
               <AiOutlineInstagram />
             </h3>
             Instagram
           </button>
+          </a>
+          <a href="https://vt.tiktok.com/ZS85QNPVu/">
           <button className="tik">
             <h3>
               <BiLogoTiktok />
             </h3>
             Tiktok
           </button>
+          </a>
         </div>
       </div>
     </section>
