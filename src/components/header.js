@@ -9,7 +9,6 @@ const Header = () => {
           <div className="header-call">
             <div>
               <h3>
-                {" "}
                 <FiPhoneCall />
               </h3>
             </div>
