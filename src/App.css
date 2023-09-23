@@ -2767,9 +2767,9 @@ width: 400px;
     color: #34495E;
     font-size: 9px;
     font-weight: 700;
-    right: 1px;
+    right: 22px;
     position: absolute;
-    bottom: 43px;
+    bottom: 28px;
 }
 .footer-text button {
     display: flex;
@@ -2815,8 +2815,8 @@ width: 400px;
     margin-left: 39px;
 }
 .alt2 {
-    width: 89px;
-    margin-left: -5px;
+    width: 71px;
+    margin-left: -33px;
 }
 .const-list h1 {
     font-family: "Archivo Black" ,sans-serif;
@@ -2825,7 +2825,7 @@ width: 400px;
     font-weight: 700;
     position: absolute;
     bottom: 64px;
-    right: 17px;
+    right: 45px;
     position: relative;
 }
 }

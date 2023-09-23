@@ -220,7 +220,7 @@ const Hero = () => {
             Instagram
           </button>
           </a>
-          <a href="https://vt.tiktok.com/ZS85QNPVu/">
+          <a href="https://vt.tiktok.com/ZSNJFus8U/">
           <button className="tik">
             <h3>
               <BiLogoTiktok />
