@@ -2617,7 +2617,7 @@ details {
 }
 .hero-icons {
     position: absolute;
-    right: 9px;
+    right: 24px;
     display: flex;
     flex-direction: column;
     top: 53px;
@@ -2652,7 +2652,7 @@ width: 400px;
     color: white;
     color: #B83D40;
     margin: 10px 0;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 .icona3 {
@@ -2811,8 +2811,13 @@ width: 400px;
     align-items: center;
     justify-content: start;
     padding: 0;
-    gap: 25px;
-    margin-left: 39px;
+    gap: 61px;
+    margin-left: 58px;
+}
+.info img {
+    transition: transform .9s;
+    width: 48px;
+    display: none;
 }
 .alt2 {
     width: 71px;
