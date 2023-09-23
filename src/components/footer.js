@@ -25,8 +25,10 @@ const Footer = () => {
            <button className='btn3'>Диагностика и ремонт электронных плат.</button>
            <button className='btn4'>Устранение протечек и др виды ремонтных работ.</button>
          </div>
+         
         </div>
       </div>
+      
     </section>
   );
 }
