@@ -502,11 +502,87 @@ flex-direction: column;
 }
 #foot{
   background: #34495E;
+  border-top: 2px solid white;
+}
+#karta{
+  padding:  50px 0 ;
+  background: #34495E;
+  position: relative;
+}
+.zemla{
+  background: #B83D40;
+
+  width: 560px;
+  height: 400px;
+  margin-left: 100px;
+}
+.zemla iframe{
+  margin-left: 80px;
+    margin-top:  30px;
+
 }
 .foot{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.opis{
+  margin-left: 700px;
+  margin-top: -350px;
+  position: absolute;
+
+}
+.opis h1{
+   font-family: "Archivo Black" ,sans-serif;
+  color:#B83D40;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 10px 0 ;
+}
+.opis h5{
+    font-family: "Archivo Black" ,sans-serif;
+  font-size: 24px;
+    color: white;
+      margin: 10px 0 30px 0 ;
+
+
+  font-weight: 500;
+}
+.opis h2{
+   font-family: "Archivo Black" ,sans-serif;
+  color: white;
+    color:#B83D40;
+      margin: 10px 0 ;
+
+
+  font-size: 28px;
+  font-weight: 600;
+}
+.icona1{
+  font-size: 25px;
+  color: red;
+  margin:  0 10px;
+}
+.icona2{
+    font-size: 25px;
+
+    margin:  0 10px;
+  color: red;
+}
+.icona3{
+  color: white;
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.icona4{
+  color: white;
+    font-size: 28px;
+}
+.icona5{
+  color: white;
+  font-size: 26px;
 }
 .foot h1{
   padding: 50px 0;
@@ -527,6 +603,12 @@ flex-direction: column;
   .container{
     width: 1300px;
   }
+  .zemla {
+    background: #B83D40;
+    width: 560px;
+    height: 400px;
+    margin-left: 27px;
+}
  
   .hero-title h1 {
     font-family: "Archivo Black" ,sans-serif;
@@ -1149,6 +1231,45 @@ element.style {
   .container{
     width: 992px;
   }
+  .zemla {
+    background: #B83D40;
+    width: 443px;
+    height: 405px;
+    margin-left: 27px;
+}
+.opis h2 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    color: #B83D40;
+    margin: 10px 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+.opis h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.opis {
+    margin-left: 579px;
+    margin-top: -350px;
+    position: absolute;
+}
+.opis h5 {
+    font-family: "Archivo Black" ,sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0 30px 0;
+    font-weight: 500;
+}
+.zemla iframe {
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 448px;
+    height: 345px;
+}
  .marka {
     display: flex;
     align-items: center;
@@ -1360,6 +1481,66 @@ details {
   .container{
     width: 778px;
   }
+  .opis h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+
+.opis h2 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    color: #B83D40;
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.opis h5 {
+    font-family: "Archivo Black" ,sans-serif;
+    font-size: 18px;
+    color: white;
+    margin: 10px 0 30px 0;
+    font-weight: 500;
+}
+.opis h2 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    color: #B83D40;
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+  .opis {
+    margin-left: 375px;
+    margin-top: -293px;
+    position: absolute;
+}
+  .zemla iframe {
+    margin-left: 42px;
+    margin-top: 30px;
+    width: 312px;
+    height: 268px;
+}
+  .zemla {
+    background: #B83D40;
+    width: 325px;
+    height: 315px;
+    margin-left: 27px;
+}
   .foot-icon a {
     color: white;
     font-size: 24px;
@@ -1662,6 +1843,12 @@ details {
   .container{
     width: 678px;
   }
+  .zemla {
+    background: #B83D40;
+    width: 270px;
+    height: 298px;
+    margin-left: 27px;
+}
 .header {
     display: flex;
     align-items: center;
@@ -1690,6 +1877,55 @@ details {
     font-weight: 700;
     margin: 60px 39px;
     margin-left: -229px;
+}
+.icona3 {
+    color: white;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.icona4 {
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.icona5 {
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.opis h5 {
+    font-family: "Archivo Black" ,sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 10px 0 30px 0;
+    font-weight: 500;
+}
+.opis h2 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    color: #B83D40;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.opis h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.opis {
+    margin-left: 319px;
+    margin-top: -293px;
+    position: absolute;
+}
+.zemla iframe {
+    margin-left: 33px;
+    margin-top: 30px;
+    width: 258px;
+    height: 255px;
 }
 .hero-title p {
     font-family: "Archivo Black" ,sans-serif;
@@ -1782,6 +2018,45 @@ details {
     align-items: center;
     margin-left: 210px;
     display: none;
+}
+.opis h5 {
+    font-family: "Archivo Black" ,sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 10px 0 30px 0;
+    font-weight: 500;
+}
+.opis h2 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    color: #B83D40;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.opis h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.opis {
+    margin-left: 253px;
+    margin-top: -262px;
+    position: absolute;
+}
+.zemla iframe {
+    margin-left: 15px;
+    margin-top: 30px;
+    width: 224px;
+    height: 255px;
+}
+.zemla {
+    background: #B83D40;
+    width: 215px;
+    height: 298px;
+    margin-left: 27px;
 }
 .hero-title h1 {
     font-family: "Archivo Black" ,sans-serif;
@@ -2044,6 +2319,12 @@ details {
     gap: 55px;
     margin-left: 45px;
 }
+.zemla {
+    background: #B83D40;
+    width: 215px;
+    height: 257px;
+    margin-left: 27px;
+}
 .hero-title h1 {
     font-family: "Archivo Black" ,sans-serif;
     color: black;
@@ -2070,6 +2351,17 @@ details {
     font-weight: 700;
     margin: 40px 39px;
     margin-left: -122px;
+}
+.opis {
+    margin-left: 248px;
+    margin-top: -262px;
+    position: absolute;
+}
+.zemla iframe {
+    margin-left: 4px;
+    margin-top: 13px;
+    width: 206px;
+    height: 235px;
 }
 .hero-tech img {
     margin: 40px 20px;
@@ -2219,6 +2511,22 @@ details {
   .container{
     width: 450px;
   }
+
+  .opis h5 {
+    font-family: "Archivo Black" ,sans-serif;
+    font-size: 13px;
+    color: white;
+    margin: 10px 0 30px 0;
+    font-weight: 500;
+}
+.opis h2 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    color: #B83D40;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
   .hero-img img {
     width: 353px;
     height: 369px;
@@ -2235,6 +2543,21 @@ details {
     font-weight: 700;
     margin: 40px 39px;
     margin-left: -89px;
+}
+.icona1 {
+    font-size: 20px;
+    color: red;
+    margin: -7px 10px;
+}
+.opis {
+    margin-left: 238px;
+    margin-top: -246px;
+    position: absolute;
+}
+.icona2 {
+    font-size: 20px;
+    color: red;
+    margin: -5px 10px;
 }
 .marka {
     display: flex;
@@ -2316,6 +2639,62 @@ details {
   .container {
 width: 400px;
   }
+  
+  .opis h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.opis h2 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    color: #B83D40;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.icona3 {
+    color: white;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.icona4 {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.icona5{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.opis h5 {
+    font-family: "Archivo Black" ,sans-serif;
+    font-size: 11px;
+    color: white;
+    margin: 10px 0 30px 0;
+    font-weight: 500;
+}
+  .opis {
+    margin-left: 181px;
+    margin-top: -246px;
+    position: absolute;
+}
+  .zemla iframe {
+    margin-left: 4px;
+    margin-top: 13px;
+    width: 154px;
+    height: 240px;
+}
+  .zemla {
+    background: #B83D40;
+    width: 53px;
+    height: 230px;
+    margin-left: 27px;
+}
   .details img {
     width: 225px;
     height: 288px;
@@ -2454,6 +2833,70 @@ width: 400px;
   .container{
     width: 380px;
   }
+  .icona1 {
+    font-size: 15px;
+    color: red;
+    margin: -4px 10px;
+}
+.icona3 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.icona4 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.icona5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.icona2 {
+    font-size: 15px;
+    color: red;
+    margin: -4px 10px;
+}
+  .opis h5 {
+    font-family: "Archivo Black" ,sans-serif;
+    font-size: 10px;
+    color: white;
+    margin: 10px 0 30px 0;
+    font-weight: 500;
+}
+  .opis h2 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: white;
+    color: #B83D40;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+  .opis h1 {
+    font-family: "Archivo Black" ,sans-serif;
+    color: #B83D40;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+  .opis {
+    margin-left: 176px;
+    margin-top: -234px;
+    position: absolute;
+}
+  .zemla {
+    background: #B83D40;
+    width: 53px;
+    height: 217px;
+    margin-left: 27px;
+}
+  .zemla iframe {
+    margin-left: 4px;
+    margin-top: 13px;
+    width: 151px;
+    height: 222px;
+}
 .info p {
     font-family: "Archivo Black" ,sans-serif;
     color: #B83D40;
@@ -2661,6 +3104,32 @@ width: 400px;
   .container{
     width: 320px;
   }
+
+.opis {
+    margin-left: 135px;
+    margin-top: -190px;
+    position: absolute;
+}
+  .opis h5 {
+    font-family: "Archivo Black" ,sans-serif;
+    font-size: 10px;
+    color: white;
+    margin: 10px 0 11px 0;
+    font-weight: 500;
+}
+.zemla {
+    background: #B83D40;
+    width: 68px;
+    height: 191px;
+    margin-left: 27px;
+}
+ 
+.zemla iframe {
+    margin-left: -11px;
+    margin-top: 13px;
+    width: 133px;
+    height: 192px;
+}
   .hero-title h1 {
     font-family: "Archivo Black" ,sans-serif;
     color: black;
