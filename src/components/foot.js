@@ -33,6 +33,9 @@ const Foot = () => {
                             <a href="tel:+996509-01-03-91">                            <BsFillTelephoneFill className=' icona5'/>
                             </a>
 
+                            <a href="tel:+996550475147" className='telefon1'><h6>Телефон:            <span>+996550475147</span></h6></a>
+                            <a href="tel:+996500475147" className='telefon2'><h6>Whatsapp:         <span>+996500475147</span></h6></a>
+
 </div>
 
 
